@@ -59,6 +59,7 @@ module RailsAdmin
           options[:type]  = field.type
           options[:value] = filter_hash['v']
           options[:label] = field.label
+          options[:separator] = filter_hash['s']
           options[:operator] = filter_hash['o'] || field.default_filter_operator
           options[:required] = field.required
           options
