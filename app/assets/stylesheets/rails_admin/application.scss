@@ -23,7 +23,9 @@
 
 /*** Font-awesome ***/
 
-@import "rails_admin/font-awesome";
+// Disable, use app default
+// @import "rails_admin/font-awesome";
+@import "font-awesome";
 
 /***  RailsAdmin Theming  ***/
 
